@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- Exercise 6.16: EX6_16.html -->
+<!-- Created by: Ashli Collige -->
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<Title> A Mathematic Program </Title>
+		<script type = "text/javascript">
+			
+			var firstNumber;
+			var secondNumber;
+			var number1;
+			var number2;
+			var sum;
+			var product;
+			var difference;
+			var quotient;
+			
+			firstNumber = window.prompt("Enter your first number");
+
+			secondNumber = window.prompt("Enter your second number");
+	
+			number1 = parseInt( firstNumber);
+			number2 = parseInt( secondNumber );
+
+			sum = number1 + number2;
+			product = number1 * number2;
+			difference = number1 - number2;
+			quoetient = number1 / number2;
+			
+			document.writeIn( "<h1>The sum is " + sum + "</h1>") ;
+			document.writeIn( "<h1>The product is " + product + "</h1>") ;
+			document.writeIn( "<h1>The difference is " + difference + "</h1>") ;
+			document.writeIn( "<h1>The quotient is " + quotient + "</h1>") ;
+		</script>
+	</head><body></body>
+</html>
